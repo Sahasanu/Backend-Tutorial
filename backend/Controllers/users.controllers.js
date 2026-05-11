@@ -1,4 +1,12 @@
 import User from "../model/user.model.js"
+// mongoose
+
+// create- to Add single single value
+// insertMany-to Insert many values/array
+// findBYid- to find any data by id 
+// findByidAndUpdate - to find and update the data of that id 
+// Delete - to delete any data
+// DelelbyID - to delete by id 
 
 const getAllUsers= async (req, res) => {
     try {
